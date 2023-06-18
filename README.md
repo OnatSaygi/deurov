@@ -33,7 +33,8 @@ Mimari tasarıma başlamak için tüm girdi ve çıktı alınan aygıtları ve d
 - Motorlara gönderilen sinyal sadece belli bir alt eşiğin üstünde motorları başlatabiliyor
 - Motorların uzun ömürlü olması için sinyal belirli bir üst eşiği geçmemeli
 - Son hızda havuzu baştan sonra gitmek yaklaşık 30s sürüyor
-![a](https://github.com/OnatSaygi/deurov/blob/main/motor-limits.png)
+- Motorların maksimum vektörleri 
+- ![Motorların maksimum vektörleri](https://github.com/OnatSaygi/deurov/blob/main/motor-limits.png)
 
 #### Ön hazırlık
 - IMU calibration yürütülüyor
