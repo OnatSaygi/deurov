@@ -1,0 +1,58 @@
+nereye gitmek istiyoruz (gorev ve goruntu islemeye bagli) (en soyut burasi) 
+	gercekte ne kadar gittik (void) : (gyro)
+		motor kontrol(vec3 yon, ms zaman) : (motor pwm)
+
+
+
+
+hedefi biliyor muyuz
+
+hedef gorunmuyor
+hedefi aramak isteriz
+
+hedef gorunuyor
+hedefe git
+
+
+hedef ara
+hedef git
+
+
+
+imu calibration calisiyor 
+motorlarin baslayabilmesi icin aldigi sinyalde minimum bir esik var
+motorlarin uzun omurlu olmasi icin aldigi sinyalde maksimum bir esik var
+
+
+(x,y,z) -> (1.00, 0.23, 1.)
+
+
+
+
+// basta bir 
+
+gorev() {
+	while (hedefi gorene kadar) {
+		// etrafta gezin ara
+		// motor_kontrol()
+	}
+	while (hedefe yerlesene kadar) {
+		// goruntu isleme hedefin acisi 
+		// motor_kontrol()
+	}
+	while (hedefi tamamla) {
+		// motor kontrol()
+	}
+}
+
+
+
+// mpu dan lineer hareket verisini dondurmeli mi?
+motor_kontrol(vec3 hareket, int ms) {
+  int sytem_time_init
+  while(system_time < system_time_init + ms) {
+    // magic mathematic
+    // set pwm for all 6 channels
+  }
+}
+
